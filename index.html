@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mossab Mohammed Al-Hassan Ali | Digital Card</title>
+
+<meta name="description"
+content="Mossab Mohammed Al-Hassan Ali - Systems Administrator | Windows Server & Active Directory Infrastructure">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eef7ff;
+    background:
+        radial-gradient(circle at top, #12304d 0%, #07111d 42%, #03080e 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.card {
+    width: 100%;
+    max-width: 520px;
+    overflow: hidden;
+    border-radius: 28px;
+    background: rgba(8, 20, 34, 0.96);
+    border: 1px solid rgba(75, 190, 255, 0.35);
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.55),
+        0 0 40px rgba(0, 150, 255, 0.08);
+}
+
+.header {
+    text-align: center;
+    padding: 40px 25px 30px;
+    background:
+        radial-gradient(
+            circle at center top,
+            rgba(0, 174, 255, 0.22),
+            transparent 65%
+        );
+}
+
+.profile-photo {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #53c9ff;
+    background: white;
+    box-shadow:
+        0 0 0 7px rgba(83, 201, 255, 0.10),
+        0 0 35px rgba(0, 174, 255, 0.25);
+}
+
+h1 {
+    margin: 22px 0 10px;
+    font-size: 25px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.job-title {
+    color: #68ceff;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.location {
+    margin-top: 10px;
+    color: #9db4c8;
+    font-size: 13px;
+}
+
+.content {
+    padding: 0 25px 30px;
+}
+
+.section {
+    margin-top: 24px;
+}
+
+.section-title {
+    color: #55c8ff;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.summary {
+    color: #d6e4ef;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill {
+    padding: 8px 11px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #dff6ff;
+    background: rgba(61, 170, 225, 0.09);
+    border: 1px solid rgba(83, 201, 255, 0.20);
+}
+
+.contact {
+    margin-top: 24px;
+    padding: 18px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.07);
+}
+
+.contact-line {
+    margin: 8px 0;
+    color: #c9d9e6;
+    font-size: 13px;
+    word-break: break-word;
+}
+
+.contact-line a {
+    color: #69ceff;
+    text-decoration: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    padding: 12px 8px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    background: #10263c;
+    border: 1px solid rgba(100, 200, 255, 0.22);
+    transition: 0.2s;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background: #163754;
+}
+
+.button.primary {
+    background: linear-gradient(135deg, #159bdc, #1266b1);
+    border: none;
+}
+
+.button.primary:hover {
+    background: linear-gradient(135deg, #1bb0f5, #1675c8);
+}
+
+.footer {
+    padding: 18px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    color: #70889d;
+    font-size: 11px;
+}
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <!--
+        IMPORTANT:
+        Upload your photo to GitHub with the exact name:
+        profile.jpg
+        -->
+
+        <img
+            src="profile.jpg"
+            alt="Mossab Mohammed Al-Hassan Ali"
+            class="profile-photo"
+        >
+
+        <h1>Mossab Mohammed Al-Hassan Ali</h1>
+
+        <div class="job-title">
+            Systems Administrator | Windows Server &amp;
+            Active Directory Infrastructure
+        </div>
+
+        <div class="location">
+            Riyadh, Saudi Arabia
+        </div>
+
+    </header>
+
+
+    <main class="content">
+
+        <!-- PROFESSIONAL SUMMARY -->
+        <section class="section">
+
+            <div class="section-title">
+                Professional Summary
+            </div>
+
+            <div class="summary">
+
+                Systems Administrator with hands-on experience
+                managing enterprise Windows Server 2019/2022
+                infrastructure, Active Directory Domain Services
+                (AD DS), and physical/virtual server environments
+                on VMware.
+
+                Proven record delivering OS migrations,
+                PowerShell automation, hardware lifecycle management,
+                and backup &amp; disaster recovery operations.
+
+            </div>
+
+        </section>
+
+
+        <!-- CORE SKILLS -->
+        <section class="section">
+
+            <div class="section-title">
+                Core Skills
+            </div>
+
+            <div class="skills">
+
+                <span class="skill">Active Directory</span>
+                <span class="skill">Windows Server</span>
+                <span class="skill">VMware</span>
+                <span class="skill">PowerShell</span>
+                <span class="skill">GPO / GPMC</span>
+                <span class="skill">DNS / DHCP</span>
+                <span class="skill">Backup &amp; DR</span>
+                <span class="skill">Cisco</span>
+                <span class="skill">Network Security</span>
+                <span class="skill">Server Infrastructure</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section">
+
+            <div class="section-title">
+                Contact
+            </div>
+
+            <div class="contact">
+
+                <div class="contact-line">
+                    📞
+                    <a href="tel:+966509516097">
+                        +966 50 951 6097
+                    </a>
+                </div>
+
+                <div class="contact-line">
+                    ✉️
+                    <a href="mailto:mossabal201@gmail.com">
+                        mossabal201@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-line">
+                    🔗
+                    <a
+                        href="https://www.linkedin.com/in/mossab-mohammed-al-hassan"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        linkedin.com/in/mossab-mohammed-al-hassan
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BUTTONS -->
+        <div class="buttons">
+
+            <a
+                class="button primary"
+                href="tel:+966509516097">
+                📞 Call
+            </a>
+
+
+            <a
+                class="button"
+                href="mailto:mossabal201@gmail.com">
+                ✉️ Email
+            </a>
+
+
+            <a
+                class="button"
+                href="https://www.linkedin.com/in/mossab-mohammed-al-hassan"
+                target="_blank"
+                rel="noopener noreferrer">
+                🔗 LinkedIn
+            </a>
+
+
+            <!--
+            The CV must be uploaded to the same GitHub repository
+            with the exact name:
+            Mossab-CV-2027.pdf
+            -->
+
+            <a
+                class="button primary"
+                href="Mossab-CV-2027.pdf"
+                download>
+                📄 Download CV
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+
+        MOSSAB MOHAMMED AL-HASSAN ALI
+        <br>
+        Systems Administrator
+
+    </footer>
+
+</div>
+
+</body>
+</html>
